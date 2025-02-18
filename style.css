@@ -1,0 +1,14 @@
+body {
+  background-color: #e40eb3;
+}
+#animation {
+  width: 100px;
+  height: 100px;
+  background: rgb(245, 242, 246);
+  transition: width 2s, height 2s, transform 2s;
+}
+#animation:hover {
+  width: 200px;
+  height: 200px;
+  transform: rotate(180deg);
+}
